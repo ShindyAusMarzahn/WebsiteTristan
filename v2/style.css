@@ -1,0 +1,410 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+/* Section Mindesthöhe****************************************************************/
+section{
+  min-height: 100%;
+}
+
+a{
+  text-decoration: none;
+
+}
+/* Listen Config*****************************************************************/
+li{
+  list-style-type: none;
+
+}
+/* Überschriften Config****************************************************************/
+h1,h2,h3,a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size:  40px;
+  padding-top: 2%;
+  margin-bottom: 10px;
+}
+
+
+/* Paragraphen config****************************************************************/
+p{
+  font-family: 'Roboto Slab', serif;
+}
+/* Horizontal line config****************************************************************/
+hr{
+  width: 30px;
+  height: 3px;
+  background:#000000;
+  border: 0;
+  margin: 0 auto 40px auto;
+}
+/* unknown purpose*****************************************************************/
+#HeadId, li, img{
+  transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;
+}
+
+.anchor {
+    display:block;
+    padding-top:0px;
+    margin-top:90px;
+ }
+
+ .anchor2 {
+     display:block;
+     padding-top:0px;
+     margin-top:10px;
+  }
+
+.h3PadEraser{
+  padding-top:3%;
+}
+
+/* Standard Box Außen Config ***********Main***Dienste******************************************/
+.box{
+  width:100%;
+  min-height:400px;
+  background-color: white;
+  padding-top:3%;
+}
+/* Box Innen Config**********************Main***Dienste******************************************/
+.boxGreen{
+  width:50%;
+  height:400px;
+  background-color: #009970;
+  float: left;
+}
+
+.boxWhite{
+  width:50%;
+  height:400px;
+  background-color: white;
+  float: left;
+}
+
+.dialogRed{
+    height:40px;
+    width:150px;
+    margin: -20px -50px;
+    position:relative;
+    top:10%;
+    left:50%;
+    background-color: red;
+}
+
+#aboutId p{
+  margin-top: 80px;
+}
+
+/* Box Innen Config**********************Main***Kontakt******************************************/
+.bigBox{
+  min-height:600px;
+  width:50%;
+  background-color: white;
+  float: left;
+}
+
+/* Box Außen Config*********************Main****Kontakt******************************************/
+.breitBox{
+  min-height:600px;
+  width:100%;
+  background-color: white;
+}
+
+
+.borderlineKontakt{
+  border-radius: 5px;
+  border: 3px solid;
+  border-color: black;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBreitBox{
+  min-height:700px;
+  width:100%;
+  background-color: white;
+  float: left;
+}
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBigBox1{
+  min-height:700px;
+  width:20%;
+  background-color: white;
+  float: left;
+}
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBigBox2{
+  min-height:700px;
+  width:70%;
+  background-color: grey;
+  float: left;
+}
+
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBigBox3{
+  min-height:700px;
+  width:10%;
+  background-color: blue;
+  float: left;
+}
+
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBreitBox2{
+  min-height:500px;
+  width:100%;
+  background-color: pink;
+}
+
+/* Bilder resize************************************************************************/
+.resize{
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 80px;
+}
+.resize2{
+  max-height: 30%;
+  max-width: 100%;
+
+}
+
+
+/* HEADER Leiste*********************************************************************/
+header{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 26px;               /* Abstand */
+  left: 0;
+  background: white;
+  opacity: 1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  z-index: 3;            /* Lvl Priorität*/
+
+}
+
+.head2{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;               /* Abstand */
+  left: 0;
+  background: #007757;
+  opacity: 1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  z-index: 3;            /* Lvl Priorität*/
+}
+
+/* Bild Tristan*****************************************************************/
+#HeadId{
+  width: 140px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 7px;
+}
+#HeadId:hover{
+  opacity: 0.85;
+  }
+
+#HeadId img{
+  width: 100%;
+}
+
+/* Bild Telefon***************************************************************/
+#HeadId2{
+  width: 140px;
+  float: right;
+  margin-right:450px;
+  margin-top: 5px;
+}
+#HeadId2:hover{
+  opacity: 0.85;
+  }
+
+#HeadId2 img{
+  width: 100%;
+}
+
+/* Bild Notdienst ***************************************************************/
+#HeadId3{
+  height: 45px;
+  width: 140px;
+  float: right;
+  margin-right:50px;
+  /*padding-top: 5px;*/
+  margin-top: 12px;
+  background-color: red;
+}
+#HeadId3:hover{
+  opacity: 0.85;
+  }
+
+#HeadId3 img{
+  width: 100%;
+}
+
+#HeadId3 p{
+  margin-top: 12px;
+}
+
+
+
+/* HEADER Navigationszeile*****************************************************/
+header nav{
+  /*float: right;*/
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+header nav ul{
+  display: inline-block;
+  list-style-type: none;
+
+  /*text-align: center;*/
+  /*position: relative;
+/*  width: 100%*
+  margin: 0 auto;
+
+/*  left: 1%;
+  padding: 0;*/
+}
+
+header nav ul li{
+  /*Navigationelemente nebeneinander*/
+  float:left;
+  /*Abstand der Navigationelemente*/
+  margin-right: 35px;
+
+}
+
+header nav ul li a{
+  font-size: 15px;
+  color: grey;
+
+}
+
+header nav ul li:hover{
+  padding-top:3px;
+  text-decoration: underline;
+}
+
+.invisible{
+  opacity:0;
+}
+/* MainPage********************************************************************/
+#MainPageId{
+  background: url(wald.jpg);
+  /*background-position: center; */
+  background-repeat: no-repeat;
+  /*background-size: 1920px 679px*/
+  background-attachment: fixed;
+  opacity: 0.85;
+}
+
+#MainPageId h1{
+  margin: 640px auto 0 auto;
+  font-size: 100px;
+  color: white;
+
+}
+#MainPageId h2{
+  margin: 0 auto 0 auto;
+  font-size: 50px;
+  color: white;
+}
+#MainPageId img{
+  margin-top: 40px;
+  opacity: 0.7;
+}
+#MainPageId img:hover{
+  opacity:1;
+}
+
+/* About***********************************************************************/
+/*
+#aboutId img{
+  width: 500px;
+} */
+
+/*
+#aboutId img:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+
+} */
+
+
+/*#aboutId p{
+  width: auto;
+  margin: 0 auto 0 auto;
+
+} */
+#About img{
+  width: 100%;
+  height: 100%;
+}
+/* Slideshow**************************************************************/
+
+
+/* Dienstleistung**************************************************************/
+#DiensteId{
+  width: 1700px;
+  margin: 0 auto 0 auto;
+}
+
+#DiensteId ul{
+  padding: 0;
+}
+
+#DiensteId ul li {
+  width: 33.3%;
+  float: left;
+}
+
+#DiensteId img{
+  /*width: 500px;
+  height: 322px; */
+  border-radius: 7px;
+}
+
+#DiensteId img:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+    box-shadow: 0 7px 7px rgba(0,0,0,0.5);
+}
+
+/* Footer *********************************************************************/
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #007757;
+
+
+}
+
+.foot2{
+  width: 100%;
+  height: 20px;
+  background-color: #3c3232;
+}
+
+footer p{
+  font-size: 14px;
+  color: white;
+  padding-top:30px;
+}
+
+/* Kontakt*********************************************************************/
+#KontaktId p{
+  font-size: 18.5px;
+}
