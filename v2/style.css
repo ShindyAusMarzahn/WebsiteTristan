@@ -13,7 +13,7 @@ a{
   text-decoration: none;
 
 }
-/* Listen Config*****************************************************************/
+/* Listen Config**********************************************************************/
 li{
   list-style-type: none;
 
@@ -32,7 +32,7 @@ h3{
 }
 
 
-/* Paragraphen config****************************************************************/
+/* Paragraphen config********************************************************************/
 p{
   font-family: 'Roboto Slab', serif;
 }
@@ -44,26 +44,37 @@ hr{
   border: 0;
   margin: 0 auto 40px auto;
 }
-/* unknown purpose*****************************************************************/
+/* unknown purpose************************************************************************/
 #HeadId, li, img{
   transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;
 }
 
+/* anchor that positions the id reference correctly*****************************************/
 .anchor {
-    display:block;
-    padding-top:0px;
-    margin-top:90px;
- }
+  display:block;
+  padding-top:0px;
+  margin-top:90px;
+}
 
  .anchor2 {
-     display:block;
-     padding-top:0px;
-     margin-top:10px;
-  }
-
-.h3PadEraser{
-  padding-top:3%;
+  display:block;
+  padding-top:0px;
+  margin-top:10px;
 }
+
+/* unknown purpose************************************************************************/  
+.h3PadEraser{
+padding-top:3%;
+}
+
+
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*******************************************Boxen************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+
 
 /* Standard Box Außen Config ***********Main***Dienste******************************************/
 .box{
@@ -76,25 +87,27 @@ hr{
 .boxGreen{
   width:50%;
   height:400px;
-  background-color: #009970;
+  background-color: #015225;
   float: left;
 }
+/*#015225*/
 
 .boxWhite{
   width:50%;
   height:400px;
-  background-color: white;
+  background-color: rgb(171,197,133);
   float: left;
 }
 
 .dialogRed{
     height:40px;
     width:150px;
-    margin: -20px -50px;
+    margin: 30px -50px;
     position:relative;
     top:10%;
     left:50%;
-    background-color: blue;
+    background-color: rgba(104, 6, 6, 0.938);
+    
 }
 
 #aboutId p{
@@ -175,6 +188,21 @@ hr{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HEADER Leiste*********************************************************************/
 header{
   width: 100%;
@@ -195,11 +223,12 @@ header{
   position: fixed;
   top: 0;               /* Abstand */
   left: 0;
-  background: #007757;
+  background: #015225;
   opacity: 1;
   box-shadow: 0 1px 3px rgba(0,0,0,0.4);
   z-index: 3;            /* Lvl Priorität*/
 }
+/*#007757;*/
 
 /* Bild Tristan*****************************************************************/
 #HeadId{
@@ -218,10 +247,10 @@ header{
 
 /* Bild Telefon***************************************************************/
 #HeadId2{
-  width: 140px;
+  width: 90px;
   float: right;
-  margin-right:450px;
-  margin-top: 5px;
+  margin-right:1%;
+
 }
 #HeadId2:hover{
   opacity: 0.85;
@@ -230,6 +259,15 @@ header{
 #HeadId2 img{
   width: 100%;
 }
+/* Text Telefon***************************************************************/
+#Telefon p{
+  font-size: 110%;
+  margin-top: 2px;
+  margin-right:300px;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+}
+
 
 /* Bild Notdienst ***************************************************************/
 #HeadId3{
@@ -239,7 +277,13 @@ header{
   margin-right:50px;
   /*padding-top: 5px;*/
   margin-top: 12px;
-  background-color: red;
+  background-color: rgb(219, 0, 0);
+  border-radius: 1px;
+  border: 2px solid;
+  border-color: black;
+
+
+
 }
 #HeadId3:hover{
   opacity: 0.85;
@@ -250,7 +294,7 @@ header{
 }
 
 #HeadId3 p{
-  margin-top: 12px;
+  margin-top: 7%;
 }
 
 
@@ -304,13 +348,14 @@ header nav ul li:hover{
   background-repeat: no-repeat;
   /*background-size: 1920px 679px*/
   background-attachment: fixed;
-  opacity: 0.85;
+  /*opacity: 0.85;*/
 }
 
 #MainPageId h1{
-  margin: 640px auto 0 auto;
+  margin: 600px auto 0 auto;
   font-size: 100px;
   color: white;
+
 
 }
 #MainPageId h2{
@@ -325,6 +370,7 @@ header nav ul li:hover{
 #MainPageId img:hover{
   opacity:1;
 }
+
 
 /* About***********************************************************************/
 /*
@@ -355,33 +401,15 @@ header nav ul li:hover{
 
 
 /* Dienstleistung**************************************************************/
-#DiensteId{
-  width: 1700px;
-  margin: 0 auto 0 auto;
-}
-
-#DiensteId ul{
-  padding: 0;
-}
-
-#DiensteId ul li {
-  width: 33.3%;
-  float: left;
-}
-
 #DiensteId img{
-  /*width: 500px;
-  height: 322px; */
-  border-radius: 7px;
+ 
 }
 
-#DiensteId img:hover{
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-    box-shadow: 0 7px 7px rgba(0,0,0,0.5);
+#DiensteId p{
+  padding-top: 40px;
 }
+
+*/
 
 /* Footer *********************************************************************/
 footer {
