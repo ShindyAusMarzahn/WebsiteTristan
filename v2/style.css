@@ -44,6 +44,16 @@ hr{
   border: 0;
   margin: 0 auto 40px auto;
 }
+
+.hr2{
+  width: 200px;
+  height: 3px;
+  background:#000000;
+  border: 0;
+  margin: 0 auto 40px auto;
+}
+}
+
 /* unknown purpose************************************************************************/
 #HeadId, li, img{
   transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;
@@ -129,11 +139,12 @@ padding-top:3%;
 
 
 .borderlineKontakt{
-  border-radius: 5px;
+  border-radius: 0px;
   border: 3px solid;
-  border-color: black;
-  margin-left: 30%;
-  margin-right: 30%;
+  border-color: #013f1d;
+  background-color: #013f1de0;
+  margin-left: 27%;
+  margin-right: 27%;
 }
 
 /* Box Außen Config*********************Personenvorstellung******************************************/
@@ -193,20 +204,20 @@ padding-top:3%;
 .footerBox{
   min-height:100px;
   width:100%;
-  background-color: pink;
+  background-color: #013f1d;
 }
 
 .NochFragenBox{
   width:100%;
-  min-height:200px;
-  background-color: grey;
-  padding-top:12%;
+  min-height:50px;
+  background-color: white;
+  padding-top: 8%;
 }
 
 .KartenBox{
-  width:90%;
+  margin-left: 10%;
+  width:80%;
   min-height:75px;
-  background-color: blue;
 /*  padding-top:12%; */
 }
 
@@ -246,13 +257,14 @@ header{
   position: fixed;
   top: 0;               /* Abstand */
   left: 0;
-  background: #015225;
+  background: #002c14;
   opacity: 1;
   box-shadow: 0 1px 3px rgba(0,0,0,0.4);
   z-index: 3;            /* Lvl Priorität*/
 }
 
-/*#337450*/
+/*#015225*/
+/*#002c14;*/
 
 /* Bild Tristan*****************************************************************/
 #HeadId{
@@ -271,9 +283,9 @@ header{
 
 /* Bild Telefon***************************************************************/
 #HeadId2{
-  width: 90px;
+  width: 30px;
   float: right;
-  margin-right:1%;
+  margin-right:0.5%;
 
 }
 #HeadId2:hover{
@@ -352,7 +364,7 @@ header nav ul li{
 }
 
 header nav ul li a{
-  font-size: 15px;
+  font-size: 18px;
   color: grey;
 
 }
@@ -360,6 +372,11 @@ header nav ul li a{
 header nav ul li:hover{
   padding-top:3px;
   text-decoration: underline;
+  
+}
+
+header nav ul li a:hover{
+  color: #016830;
 }
 
 .invisible{
@@ -367,7 +384,7 @@ header nav ul li:hover{
 }
 /* MainPage********************************************************************/
 #MainPageId{
-  background: url(wald.jpg);
+  background: url(Main2.JPG);
   /*background-position: center; */
   background-repeat: no-repeat;
   /*background-size: 1920px 679px*/
@@ -462,10 +479,10 @@ footer {
 footer p{
 
   font-size: 14px;
-  color: black;
+  color: ghostwhite;
   /*padding-top:30px; */
-  background-color: red;
-}
+  background-color: #002c14;
+} 
 /* Kontakt*********************************************************************/
 #KontaktId p{
   font-size: 18.5px;
