@@ -52,6 +52,14 @@ hr{
   border: 0;
   margin: 0 auto 40px auto;
 }
+.hr3{
+  width: 100px;
+  height: 3px;
+  background:#000000;
+  border: 0;
+  margin: 0 auto 40px auto;
+}
+
 }
 
 /* unknown purpose************************************************************************/
@@ -99,6 +107,14 @@ padding-top:3%;
   height:230px;
   background-color: #2d7a56;;
   float: left;
+}
+
+.boxGreenSmall{
+  width:61%;
+  height:230px;
+  background-color: #2d7a56;;
+  float: left;
+  margin-left: 20%;
 }
 /*#015225*/
 
@@ -313,6 +329,16 @@ header{
   font-family: Arial Black,Arial Bold,Gadget,sans-serif;
   text-align: left;
   margin-left: 30px;
+}
+
+.TDiensteS{
+  font-size: 90%;
+  margin-top: 2px;
+  margin-right:1px;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  text-align: left;
+  margin-left: 10px;
 }
 
 .TDiensteHeadline{
