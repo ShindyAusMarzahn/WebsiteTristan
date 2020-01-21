@@ -89,22 +89,22 @@ padding-top:3%;
 /* Standard Box Außen Config ***********Main***Dienste******************************************/
 .box{
   width:100%;
-  min-height:250px;
+  min-height:230px;
   background-color: white;
   padding-top:3%;
 }
 /* Box Innen Config*/
 .boxGreen{
   width:50%;
-  height:250px;
-  background-color: #015225;
+  height:230px;
+  background-color: #2d7a56;;
   float: left;
 }
 /*#015225*/
 
 .boxWhite{
   width:50%;
-  height:250px;
+  height:230px;
   background-color: white;
   float: left;
 }
@@ -240,7 +240,7 @@ padding-top:3%;
 /* HEADER Leiste*********************************************************************/
 header{
   width: 100%;
-  height: 70px;
+  height: 90px;
   position: fixed;
   top: 26px;               /* Abstand */
   left: 0;
@@ -304,6 +304,25 @@ header{
   font-family: Arial Black,Arial Bold,Gadget,sans-serif;
 }
 
+/* Text Diensleistungen***************************************************************/
+.TDienste{
+  font-size: 110%;
+  margin-top: 2px;
+  margin-right:20px;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.TDiensteHeadline{
+  font-size: 150%;
+  margin-top: 2px;
+  margin-right:20px;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+}
+
 
 /* Bild Notdienst ***************************************************************/
 #HeadId3{
@@ -312,11 +331,11 @@ header{
   float: right;
   margin-right:50px;
   /*padding-top: 5px;*/
-  margin-top: 12px;
+  margin-top: 17px;
   background-color: rgb(219, 0, 0);
   border-radius: 1px;
-  border: 2px solid;
-  border-color: black;
+  border: 3px solid;
+  border-color:black;
 
 
 
@@ -338,7 +357,7 @@ header{
 /* HEADER Navigationszeile*****************************************************/
 header nav{
   /*float: right;*/
-  margin-top: 10px;
+  margin-top: 17px;
   margin-right: 200px;
 }
 
