@@ -83,7 +83,7 @@ padding-top:3%;
   background-color: white;
   padding-top:3%;
 }
-/* Box Innen Config**********************Main***Dienste******************************************/
+/* Box Innen Config*/
 .boxGreen{
   width:50%;
   height:400px;
@@ -110,9 +110,7 @@ padding-top:3%;
 
 }
 
-#aboutId p{
-  margin-top: 80px;
-}
+
 
 /* Box Innen Config**********************Main***Kontakt******************************************/
 .bigBox{
@@ -124,7 +122,7 @@ padding-top:3%;
 
 /* Box Außen Config*********************Main****Kontakt******************************************/
 .breitBox{
-  min-height:600px;
+  min-height: 95%;
   width:100%;
   background-color: white;
 }
@@ -175,6 +173,10 @@ padding-top:3%;
   background-color: pink;
 }
 
+#aboutId p{
+  margin-top: 80px;
+}
+
 /* Bilder resize************************************************************************/
 .resize{
   max-width: 50%;
@@ -182,16 +184,30 @@ padding-top:3%;
   margin-top: 80px;
 }
 .resize2{
-  max-height: 30%;
-  max-width: 100%;
+  max-height: 250px;
+  max-width: 50%;
 
 }
 
 /* Alt Footer Box********************Footer******************************************/
 .footerBox{
-  min-height:300px;
+  min-height:100px;
   width:100%;
   background-color: pink;
+}
+
+.NochFragenBox{
+  width:100%;
+  min-height:200px;
+  background-color: grey;
+  padding-top:12%;
+}
+
+.KartenBox{
+  width:90%;
+  min-height:75px;
+  background-color: blue;
+/*  padding-top:12%; */
 }
 
 
