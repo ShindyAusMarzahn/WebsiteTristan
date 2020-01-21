@@ -89,14 +89,14 @@ padding-top:3%;
 /* Standard Box Außen Config ***********Main***Dienste******************************************/
 .box{
   width:100%;
-  min-height:400px;
+  min-height:250px;
   background-color: white;
   padding-top:3%;
 }
 /* Box Innen Config*/
 .boxGreen{
   width:50%;
-  height:400px;
+  height:250px;
   background-color: #015225;
   float: left;
 }
@@ -104,7 +104,7 @@ padding-top:3%;
 
 .boxWhite{
   width:50%;
-  height:400px;
+  height:250px;
   background-color: white;
   float: left;
 }
